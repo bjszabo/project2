@@ -34,7 +34,7 @@ h2 {
   color: darkblue;
   font-size: 2em; /*32px / 16 = 2em*/
   font-weight: bold;
-  padding-top: 1em;
+  padding-top: 2em;
   padding-bottom: .5em;
 }
 
@@ -159,7 +159,7 @@ img {
   #about h2 {
     grid-column: span 3;
   }
-  #about img {
+  #about figure {
     grid-column: span 1;
   }
   #about .summary {
