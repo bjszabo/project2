@@ -31,7 +31,7 @@ h1 {
   padding-bottom: .25em; /*4px / 16 = 0.25em*/
 }
 h2 {
-  color: black;
+  color: darkblue;
   font-size: 2em; /*32px / 16 = 2em*/
   font-weight: bold;
   padding-top: 1em;
@@ -45,10 +45,11 @@ h3 {
 }
 
 h4 {
-  color: black;
+  color: skyblue;
   font-size: 1.25em;
   padding-bottom: .5em;
   text-align: center;
+  font-weight: bold:
 }
 p {
   color: black;
