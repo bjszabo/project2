@@ -77,6 +77,17 @@ img {
   max-width: 100%;
   padding: .25em;
 }
+.navigation {
+  list-style-type: none;
+}
+.navigation {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.navigation li {
+  flex: 1 0 100px;
+}
 
 /*state styles */
 /*500px = 500 / 16 = 31.25em*/
