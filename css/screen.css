@@ -70,6 +70,12 @@ li {
   line-height: 1.25em; /*20px / 16 = 1.25em*/
   text-align: center;
 }
+figcaption {
+  color: mistyrose;
+  font-style: italic;
+  font-size: 0.625em; /* 10px / 16 = 0.625em */
+  text-align: center;
+}
 
 /* Modular styles and Responsive Media */
 
@@ -174,7 +180,7 @@ img {
   #hobby p {
     grid-column: span 4;
   }
-  #hobby img {
+  #hobby figure {
     grid-column: 2 / 4;
   }
 }
