@@ -9,7 +9,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 /*base styles*/
 html {
-  background-color: black;
+  background-color: #707070;
   font-family: "fahkwang", helvetica, arial, sans-serif;
   margin: 20px;
   padding: 0.5em;
@@ -24,14 +24,14 @@ h3 {
   padding-bottom: .25em;
 }
 h1 {
-  color: hotpink;
+  color: black;
   font-family: 'Sansita', sans-serif;
   font-size: 3.5em; /*56px / 16 = 3.5em*/
   font-weight: bolder;
   padding-bottom: .25em; /*4px / 16 = 0.25em*/
 }
 h2 {
-  color: pink;
+  color: black;
   font-size: 2em; /*32px / 16 = 2em*/
   font-weight: bold;
   padding-top: 1em;
@@ -39,19 +39,19 @@ h2 {
 }
 
 h3 {
-  color: yellow;
+  color: black;
   font-size: 1em;
   padding-bottom: .5em;
 }
 
 h4 {
-  color: skyblue;
+  color: black;
   font-size: 1.25em;
   padding-bottom: .5em;
   text-align: center;
 }
 p {
-  color: lightslategrey;
+  color: black;
   display: block;
   font-size: 1em;
   font-style: normal;
@@ -62,7 +62,7 @@ p {
 }
 ul,
 li {
-  color: lightslategrey;
+  color: black;
   font-size: 1em;
   font-style: normal;
   font-weight: normal;
