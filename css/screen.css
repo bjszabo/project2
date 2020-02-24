@@ -113,7 +113,7 @@ img {
     grid-column: span 4;
   }
 
-  #about img {
+  #about figure {
     grid-column: 2 / 4;
   }
 
