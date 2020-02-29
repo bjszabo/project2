@@ -81,6 +81,12 @@ figcaption {
   font-size: 0.625em; /* 10px / 16 = 0.625em */
   text-align: center;
 }
+a:visited {
+  color: silver;
+}
+a:link {
+  color: black;
+}
 
 /* Modular styles and Responsive Media */
 
