@@ -116,6 +116,9 @@ img {
   display: flex;
   flex-direction: row;
 }
+.cooking figure img {
+  border-radius: 100%;
+}
 .navigation {
   list-style-type: none;
 }
