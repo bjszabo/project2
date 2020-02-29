@@ -11,8 +11,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 html {
   background-color: #707070;
   font-family: "fahkwang", helvetica, arial, sans-serif;
-  margin: 20px;
-  padding: 0.5em;
+  margin: 1.25em; /*20px / 16 = 1.25em*/
 }
 header {
   padding-bottom: 2em;
@@ -89,7 +88,7 @@ a:link {
 }
 
 footer {
-  padding-top: 10px;
+  padding-top: 0.625em; /*10px / 16 = 0.625em*/
 }
 footer p, a:link{
   color: blue;
@@ -102,11 +101,16 @@ footer small {
   text-align: right;
 }
 footer .cr {
-  font-size: 0.8em;
+  font-size: 0.8em;/* 80% of original*/
   font-style: italic;
 }
 
 /* Modular styles and Responsive Media */
+img {
+  display:block;
+  max-width: 50%;
+  padding: .25em;
+}
 
 img {
   display:block;
@@ -122,8 +126,9 @@ img {
   flex-wrap: wrap;
 }
 .navigation li {
-  flex: 1 0 100px;
+  flex: 1 0 6.25em; /*100px / 16 = 6.25*/
 }
+
 
 /*state styles */
 /*256px = 256 / 16 = 16em */
@@ -132,7 +137,7 @@ img {
     font-size: 0.75em /* 3/4 regular size*/
   }
   .navigation li {
-    flex: 1 0 50px;
+    flex: 1 0 3.125em; /*50px / 16 = 3.125em*/
   }
 }
 @media screen and (min-width: 29.3125em) {
@@ -140,7 +145,7 @@ img {
     font-size: 1em /* 3/4 regular size*/
   }
   .navigation li {
-    flex: 1 0 100px;
+    flex: 1 0 6.25em; /*100px / 16 = 6.25*/
   }
 }
 
