@@ -88,6 +88,20 @@ a:link {
   color: black;
 }
 
+footer {
+  padding-top: 10px;
+}
+footer p, a:link{
+  color: blue;
+}
+footer small {
+  text-align: right;
+}
+footer .cr {
+  font-size: 0.8em;
+  font-style: italic;
+}
+
 /* Modular styles and Responsive Media */
 
 img {
@@ -108,13 +122,21 @@ img {
 }
 
 /*state styles */
-/*256px = 256 / 16 = 16em    469px = 469/16 = 29.3125em*/
-@media screen and (min-width: 16em) and (max-width: 29.3125em) {
+/*256px = 256 / 16 = 16em */
+@media screen and (min-width: 16em){
   #navigation {
     font-size: 0.75em /* 3/4 regular size*/
   }
   .navigation li {
     flex: 1 0 50px;
+  }
+}
+@media screen and (min-width: 29.3125em) {
+  #navigation {
+    font-size: 1em /* 3/4 regular size*/
+  }
+  .navigation li {
+    flex: 1 0 100px;
   }
 }
 
