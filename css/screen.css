@@ -46,7 +46,7 @@ h3 {
 
 h4 {
   color: skyblue;
-  font-size: 1.25em;
+  font-size: 1em;
   padding-bottom: .5em;
   text-align: center;
   font-weight: bold;
@@ -152,7 +152,7 @@ img {
     flex: 0 0 auto;
     width: 100%;
   }
-  h4 {
+  #work h4 {
     padding-top: 30px;
   }
   #hobby {
@@ -165,8 +165,8 @@ img {
   }
 }
 
-/*650px = 650 / 16 = 40.625em*/
-@media screen and (min-width: 40.625em) {
+/*626px = 626 / 16 = 39.125em*/
+@media screen and (min-width: 39.125em) {
   #about {
     display: grid;
     grid-gap: 1.111111111111111em; /*20 / 18 = 1.111111111111111‬em*/
@@ -203,5 +203,21 @@ img {
   }
   #hobby figure {
     grid-column: 2 / 4;
+  }
+}
+/*900px = 900 / 16 = 56.25‬em*/
+@media screen and (min-width: 56.25em) {
+  html {
+    margin-left: 100px;
+    margin-right: 100px;
+
+  }
+}
+/*1200px = 1200 / 16 = 75‬em*/
+@media screen and (min-width: 75em) {
+  html {
+    margin-left: 150px;
+    margin-right: 150px;
+
   }
 }
