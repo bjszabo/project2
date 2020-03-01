@@ -112,6 +112,13 @@ img {
   max-width: 100%;
   padding: .25em;
 }
+.cooking {
+  display: flex;
+  flex-direction: row;
+}
+.cooking figure img {
+  border-radius: 100%;
+}
 .navigation {
   list-style-type: none;
 }
@@ -189,6 +196,9 @@ img {
   #hobby h2 {
     grid-column: span 2;
   }
+  .cooking {
+    grid-column: span 2;
+  }
 }
 
 /*626px = 626 / 16 = 39.125em*/
@@ -230,6 +240,10 @@ img {
   #hobby figure {
     grid-column: 2 / 4;
   }
+  .cooking {
+    grid-column: span 4;
+  }
+
 }
 /*900px = 900 / 16 = 56.25‬em*/
 @media screen and (min-width: 56.25em) {
