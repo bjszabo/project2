@@ -89,6 +89,8 @@ a:link {
 
 footer {
   padding-top: 0.625em; /*10px / 16 = 0.625em*/
+  display: grid;
+  padding-top: 4em;
 }
 footer p, a:link{
   color: blue;
@@ -96,13 +98,14 @@ footer p, a:link{
 footer a:visited {
   color: blue;
 }
-
-footer small {
-  text-align: right;
+footer p {
+  grid-column: 1;
+  text-align: left;
 }
-footer .cr {
+footer small {
   font-size: 0.8em;/* 80% of original*/
   font-style: italic;
+  text-align: right;
 }
 
 /* Modular styles and Responsive Media */
@@ -130,6 +133,20 @@ img {
 .navigation li {
   flex: 1 0 6.25em; /*100px / 16 = 6.25*/
 }
+#roof {
+  display:flex;
+  padding-top: 2em;
+}
+.rotated1 img {
+  transform: rotate(-20deg);
+  shape-outside: polygon();
+}
+.rotated2 img {
+  transform: rotate(20deg);
+  shape-outside: polygon();
+
+}
+
 
 
 /*state styles */
