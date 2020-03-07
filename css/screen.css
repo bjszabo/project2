@@ -139,26 +139,22 @@ img {
 #roof {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  /*
-  grid-template-areas:
-    "1 1 2 2"
-    "1 1 2 2"
-    "3 3 4 4"
-    "3 3 4 4";*/
+  grid-template-rows: repeat(2, 50px);
   padding-top: 2em;
 }
+
 .rotated1 img {
   transform: rotate(-20deg);
 }
 #roof .rotated1 figcaption {
   transform: rotate(-20deg);
 }
-
-#roof .rotated2 img {
-  transform: rotate(20deg);
+#roof .rotated2 {
   grid-column: 2 / 3;
   grid-row: 2 / 3;
+}
+#roof .rotated2 img {
+  transform: rotate(20deg);
 }
 
 
