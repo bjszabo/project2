@@ -77,7 +77,7 @@ figure {
 figcaption {
   color: mistyrose;
   font-style: italic;
-  font-size: 0.625em; /* 10px / 16 = 0.625em */
+  font-size: 0.75em; /* 12px / 16 = 0.75em */
   text-align: center;
 }
 a:visited {
@@ -139,15 +139,18 @@ img {
 #roof {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 50px);
+  grid-template-rows: repeat(6, 100px);
   padding-top: 2em;
 }
 
-.rotated1 img {
+#roof .rotated1 img {
   transform: rotate(-20deg);
 }
 #roof .rotated1 figcaption {
   transform: rotate(-20deg);
+  text-align: left;
+  padding: 1em;
+  padding-left: 7em;
 }
 #roof .rotated2 {
   grid-column: 2 / 3;
@@ -156,6 +159,14 @@ img {
 #roof .rotated2 img {
   transform: rotate(20deg);
 }
+
+#roof .rotated2 figcaption {
+  transform: rotate(20deg);
+  text-align: left;
+  padding: 1em;
+  padding-left: 7em;
+}
+
 
 
 
