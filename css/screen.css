@@ -106,6 +106,7 @@ footer small {
   font-size: 0.8em;/* 80% of original*/
   font-style: italic;
   text-align: right;
+  grid-row: 1;
 }
 
 /* Modular styles and Responsive Media */
@@ -140,7 +141,7 @@ img {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(6, 100px);
-  padding-top: 2em;
+  padding-top: 5em;
 }
 
 #roof .rotated1 img {
