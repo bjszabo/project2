@@ -48,6 +48,7 @@ h4 {
   font-size: 1em;
   font-weight: bold;
   padding-bottom: .5em;
+  padding-top: 1em;
   text-align: center;
 }
 p {
@@ -225,8 +226,9 @@ img {
     width: 100%;
   }
   #work h4 {
-    padding-top: 30px;
+    padding-top: 1.875em; /*30px / 16 = 1.875em*/
   }
+
   #hobby {
     display: grid;
     grid-gap: 1.111111111111111em; /*20 / 18 = 1.111111111111111‬em*/
