@@ -114,6 +114,12 @@ img {
   max-width: 100%;
   padding: .25em;
 }
+#about img {
+  border-radius: 50%;
+}
+#work img {
+  border-radius: 10%;
+}
 .cooking {
   display: flex;
   flex-direction: row;
