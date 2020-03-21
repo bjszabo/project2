@@ -52,6 +52,9 @@ h4 {
   padding-top: 1em;
   text-align: center;
 }
+#work h4{
+  font-family: 'Prompt', sans-serif;
+}
 p {
   color: black;
   display: block;
