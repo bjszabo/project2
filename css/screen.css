@@ -93,7 +93,7 @@ a:link {
 }
 
 footer {
-  padding-top: 0.625em; /*10px / 16 = 0.625em*/
+  padding-top: 2.5em; /*2 times line height of paragraph text*/
 }
 footer li, a:link{
   color: blue;
