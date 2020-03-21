@@ -95,7 +95,7 @@ a:link {
 footer {
   padding-top: 0.625em; /*10px / 16 = 0.625em*/
 }
-footer ul, a:link{
+footer li, a:link{
   color: blue;
 }
 footer a:visited {
@@ -108,6 +108,7 @@ footer small {
 footer .cr {
   font-size: 0.8em;/* 80% of original*/
   font-style: italic;
+  color: black;
 }
 
 /* Modular styles and Responsive Media */
