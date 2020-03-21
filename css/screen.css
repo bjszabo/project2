@@ -95,7 +95,7 @@ a:link {
 footer {
   padding-top: 0.625em; /*10px / 16 = 0.625em*/
 }
-footer p, a:link{
+footer ul, a:link{
   color: blue;
 }
 footer a:visited {
