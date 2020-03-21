@@ -236,6 +236,38 @@ img {
   padding: 1em;
   padding-left: 7em;
   }
+  .cooking {
+    grid-column: span 2;
+  }
+  #roof {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(6, 100px);
+  padding-top: 5em;
+  }
+
+#roof .rotated1 img {
+  transform: rotate(-20deg);
+  }
+#roof .rotated1 figcaption {
+  transform: rotate(-20deg);
+  text-align: left;
+  padding: 1em;
+  padding-left: 7em;
+  }
+#roof .rotated2 {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+  }
+#roof .rotated2 img {
+  transform: rotate(20deg);
+  }
+#roof .rotated2 figcaption {
+  transform: rotate(20deg);
+  text-align: left;
+  padding: 1em;
+  padding-left: 7em;
+  }
 }
 
 
