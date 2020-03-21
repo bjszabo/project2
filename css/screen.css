@@ -114,6 +114,12 @@ img {
   max-width: 100%;
   padding: .25em;
 }
+#about img {
+  border-radius: 50%;
+}
+#work img {
+  border-radius: 10%;
+}
 .cooking {
   display: flex;
   flex-direction: row;
@@ -188,7 +194,7 @@ img {
     width: 100%;
   }
   #work h4 {
-    padding-top: 30px;
+    padding-top: 1.875em; /*30px / 16 = 1.875em*/
   }
   #hobby {
     display: grid;
@@ -201,7 +207,37 @@ img {
   .cooking {
     grid-column: span 2;
   }
+  #roof {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(6, 100px);
+  padding-top: 5em;
+  }
+
+#roof .rotated1 img {
+  transform: rotate(-20deg);
+  }
+#roof .rotated1 figcaption {
+  transform: rotate(-20deg);
+  text-align: left;
+  padding: 1em;
+  padding-left: 7em;
+  }
+#roof .rotated2 {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+  }
+#roof .rotated2 img {
+  transform: rotate(20deg);
+  }
+#roof .rotated2 figcaption {
+  transform: rotate(20deg);
+  text-align: left;
+  padding: 1em;
+  padding-left: 7em;
+  }
 }
+
 
 /*626px = 626 / 16 = 39.125em*/
 @media screen and (min-width: 39.125em) {
@@ -245,7 +281,35 @@ img {
   .cooking {
     grid-column: span 4;
   }
+  #roof {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(6, 100px);
+    padding-top: 5em;m
+  }
 
+  #roof .rotated1 img {
+    transform: rotate(-20deg);
+  }
+  #roof .rotated1 figcaption {
+    transform: rotate(-20deg);
+    text-align: left;
+    padding: 1em;
+    padding-left: 7em;
+  }
+  #roof .rotated2 {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+  }
+  #roof .rotated2 img {
+    transform: rotate(20deg);
+  }
+  #roof .rotated2 figcaption {
+    transform: rotate(20deg);
+    text-align: left;
+    padding: 1em;
+    padding-left: 7em;
+  }
 }
 /*900px = 900 / 16 = 56.25‬em*/
 @media screen and (min-width: 56.25em) {
