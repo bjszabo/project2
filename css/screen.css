@@ -72,6 +72,10 @@ li {
   line-height: 1.25em; /*20px / 16 = 1.25em*/
   text-align: center;
 }
+ul {
+  padding-bottom: .75em; /*12px / 16 = 0.75em*/
+}
+
 figure {
   display: block;
   max-width: 100%;
@@ -213,8 +217,8 @@ img {
   #roof {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(4, 100px);
-    padding-top: 5em;
+    grid-template-rows: repeat(4, 80px);
+    padding-top: 3em;
   }
 
   #roof .rotated1 img {
@@ -229,20 +233,23 @@ img {
   #roof .rotated2 {
     grid-column: 2 / 3;
     grid-row: 2 / 3;
-    }
+  }
   #roof .rotated2 img {
     transform: rotate(20deg);
-    }
+  }
   #roof .rotated2 figcaption {
     transform: rotate(20deg);
     text-align: left;
     padding: 1em;
     padding-left: 7em;
-    }
+  }
 }
 
 /*626px = 626 / 16 = 39.125em*/
 @media screen and (min-width: 39.125em) {
+  #navigation {
+    font-size: 1em /* 3/4 regular size*/
+  }
   #about {
     display: grid;
     grid-gap: 1.111111111111111em; /*20 / 18 = 1.111111111111111‬em*/
@@ -285,35 +292,6 @@ img {
   }
   .cooking {
     grid-column: span 4;
-  }
-  #roof {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(6, 100px);
-    padding-top: 5em;
-  }
-
-  #roof .rotated1 img {
-    transform: rotate(-20deg);
-  }
-  #roof .rotated1 figcaption {
-    transform: rotate(-20deg);
-    text-align: left;
-    padding: 1em;
-    padding-left: 7em;
-  }
-  #roof .rotated2 {
-    grid-column: 2 / 3;
-    grid-row: 2 / 3;
-  }
-  #roof .rotated2 img {
-    transform: rotate(20deg);
-  }
-  #roof .rotated2 figcaption {
-    transform: rotate(20deg);
-    text-align: left;
-    padding: 1em;
-    padding-left: 7em;
   }
 }
 /*900px = 900 / 16 = 56.25‬em*/
