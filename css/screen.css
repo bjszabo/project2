@@ -9,7 +9,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 /*base styles*/
 html {
-  background-color: 	black;
+  background-color: 	#191919;
   font-family: "fahkwang", helvetica, arial, sans-serif;
   margin: 1.25em; /*20px / 16 = 1.25em*/
 }
@@ -67,7 +67,7 @@ h3 {
   text-align: center;
 }
 h1 {
-  color: black;
+  color: #b8704d;
   font-family: 'Sansita', sans-serif;
   font-size: 3.5em; /*56px / 16 = 3.5em*/
   font-weight: bolder;
@@ -91,8 +91,6 @@ p {
   color: black;
   display: block;
   font-size: 1em;
-  font-style: normal;
-  font-weight: normal;
   line-height: 1.25em; /*20px / 16 = 1.25em*/
   padding-bottom: .75em; /*12px / 16 = 0.75em*/
   padding-left: 0.25em;
@@ -123,10 +121,10 @@ figcaption {
   text-align: center;
 }
 a:visited {
-  color: black;
+  color: darkslategray;
 }
 a:link {
-  color: black;
+  color: #d1a38c;
 }
 
 footer {
@@ -145,7 +143,7 @@ footer small {
 footer .cr {
   font-size: 0.8em;/* 80% of original*/
   font-style: italic;
-  color: black;
+  color: #ff948a;
 }
 
 /* Modular styles and Responsive Media */
@@ -253,6 +251,7 @@ img {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(4, 80px);
     padding-top: 3em;
+    padding-bottom: 3em;
   }
 
   #roof .rotated1 img {
@@ -262,7 +261,7 @@ img {
     transform: rotate(-20deg);
     text-align: left;
     padding: 1em;
-    padding-left: 7em;
+    padding-left: 4em;
   }
   #roof .rotated2 {
     grid-column: 2 / 3;
@@ -273,9 +272,8 @@ img {
   }
   #roof .rotated2 figcaption {
     transform: rotate(20deg);
-    text-align: left;
-    padding: 1em;
-    padding-left: 7em;
+    padding-top: 1em;
+    padding-right: 5em;
   }
 }
 
