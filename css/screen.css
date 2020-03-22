@@ -133,9 +133,6 @@ footer {
 footer li, a:link{
   color: blue;
 }
-footer a:visited {
-  color: blue;
-}
 
 footer small {
   text-align: right;
