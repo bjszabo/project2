@@ -455,3 +455,10 @@ img {
     margin-right: 300px;
   }
 }
+/*1600px = 1600 / 16 = 100‬em*/
+@media screen and (min-width: 100em) {
+  html {
+    margin-left: 400px;
+    margin-right: 400px;
+  }
+}
