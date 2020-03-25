@@ -435,14 +435,14 @@ img {
   }
 }
 /*1275px = 1275 / 16 = 79.6875‬em*/
-@media screen and (min-width: 63.4375em) {
+@media screen and (min-width: 79.6875em) {
   html {
     margin-left: 200px;
     margin-right: 200px;
   }
 }
 /*1400px = 1400 / 16 = 87.5‬em*/
-@media screen and (min-width: 63.4375em) {
+@media screen and (min-width: 87.5em) {
   html {
     margin-left: 250px;
     margin-right: 250px;
