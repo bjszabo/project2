@@ -38,6 +38,7 @@ header {
 }
 #work h4{
   font-family: 'Prompt', sans-serif;
+  text-transform: uppercase;
 }
 #hobby {
   background-color: 	#ffc6cd;
@@ -69,7 +70,7 @@ h3 {
 h1 {
   color: #1E90FF;
   font-family: 'Sansita', sans-serif;
-  font-size: 3.5em; /*56px / 16 = 3.5em*/
+  font-size: 3em; /*56px / 16 = 3.5em*/
   font-weight: bolder;
 }
 h2 {
@@ -184,6 +185,7 @@ img {
     flex: 1 0 3.125em; /*50px / 16 = 3.125em*/
   }
 }
+
 /*256px = 469 / 16 = 29.3125em */
 @media screen and (min-width: 29.3125em) {
   .navigation li {
@@ -193,6 +195,9 @@ img {
 
 /*500px = 500 / 16 = 31.25em*/
 @media screen and (min-width: 31.25em) {
+  h1{
+    font-size: 3.5em;
+  }
   #about {
     display: grid;
     grid-gap: 1.111111111111111em; /*20 / 18 = 1.111111111111111‬em*/
@@ -218,7 +223,7 @@ img {
     width: 100%;
   }
   #work .wp {
-    flex: 1 0 100px;
+    flex: 1 0 6.25em; /*100px / 16 = 6.25em*/
     flex-wrap: nowrap;
   }
   #work .projects {
@@ -243,7 +248,7 @@ img {
   #roof {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(4, 80px);
+    grid-template-rows: repeat(4, 5em); /*80px / 16 = 5em*/
     padding-top: 3em;
     padding-bottom: 3em;
   }
@@ -280,7 +285,7 @@ img {
     display: grid;
     grid-gap: 1.111111111111111em; /*20 / 18 = 1.111111111111111‬em*/
     grid-template-columns: repeat(7, 1fr);
-    grid-template-rows: 50px 200px 200px 50px;
+    grid-template-rows: 3.125em 12.5em 12.5em 3.125em; /*50px 200px 200px 50px all dif by 16 */
   }
   #about h2 {
     grid-column: span 7;
@@ -298,7 +303,7 @@ img {
     width: 100%;
   }
   #work h4 {
-    padding-top: 30px;
+    padding-top: 1.875em; /*30px / 16 = 1.875em*/
     flex: 0 0 auto;
     width: 100%;
   }
@@ -348,7 +353,7 @@ img {
   }
   #roof {
     display: grid;
-    grid-template-rows: repeat(5, 80px);
+    grid-template-rows: repeat(5, 5em);/*80px / 16 = 5em*/
     padding-top: 4em;
   }
 
@@ -356,7 +361,7 @@ img {
 /*750px = 750 / 16 = 46.875‬em*/
 @media screen and (min-width: 46.875em) {
   #about {
-    grid-template-rows: 75px 220px 220px 50px;
+    grid-template-rows: 4.6875em 13.75em 13.76em 3.125em; /*75px 220px 220px 50px all dif by 16 */
   }
   #about p {
     padding-left: 1em;
@@ -368,8 +373,8 @@ img {
 /*850px = 850 / 16 = 53.125‬em*/
 @media screen and (min-width: 53.125em) {
   html {
-    margin-left: 75px;
-    margin-right: 75px;
+    margin-left: 4.6875em;
+    margin-right: 4.6875em;
   }
   h2 {
     font-size: 2.5em; /*40px / 16 = 2.5em*/
@@ -378,7 +383,7 @@ img {
     font-size: 1.25em; /*20px / 16 = 1.25em*/
   }
   #about {
-    grid-template-rows: 50px 275px 275px;
+    grid-template-rows: 3.125em 17.1875em 17.1875em;  /*50px 275px 275px all dif by 16 */
   }
   #work h2 {
     padding-top: 1em;
@@ -394,7 +399,7 @@ img {
 @media screen and (min-width: 59.375em) {
   #about {
     grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: 50px 200px 200px 50px;
+    grid-template-rows: 3.125em 12.5em 12.5em 3.125em; /*50px 200px 200px 50px all dif by 16 */
   }
   #about h2 {
     grid-column: span 6;
@@ -403,23 +408,23 @@ img {
     grid-column: span 2;
   }
   #roof {
-    grid-template-rows: repeat(6, 80px);
+    grid-template-rows: repeat(6, 5em); /*80px / 16 = 5em*/
     padding-top: 5em;
   }
 }
 /*1015px = 1015 / 16 = 63.4375‬em*/
 @media screen and (min-width: 63.4375em) {
   html {
-    margin-left: 150px;
-    margin-right: 150px;
+    margin-left: 9.375em; /*150px / 16 = 9.375em*/
+    margin-right: 9.375em;
   }
 }
 
 /*1160px = 1160 / 16 = 72.5‬em*/
 @media screen and (min-width: 72.5em) {
   #about {
-    grid-template-columns: 20px repeat(6, 1fr);
-    grid-template-rows: 100px 200px 200px 50px;
+    grid-template-columns: 1.25em repeat(6, 1fr);
+    grid-template-rows: 6.25em 12.5em 12.5em 3.125em; /*100px 200px 200px 50px all dif by 16 */
   }
   #about h2 {
     grid-column: span 7;
@@ -437,28 +442,28 @@ img {
 /*1275px = 1275 / 16 = 79.6875‬em*/
 @media screen and (min-width: 79.6875em) {
   html {
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 12.5em; /*200px / 16 = 12.5em*/
+    margin-right: 12.5em;
   }
 }
 /*1400px = 1400 / 16 = 87.5‬em*/
 @media screen and (min-width: 87.5em) {
   html {
-    margin-left: 250px;
-    margin-right: 250px;
+    margin-left: 15.625em; /*250px / 16 = 15.625em*/
+    margin-right: 15.625em;
   }
 }
 /*1480px = 1480 / 16 = 92.5‬em*/
 @media screen and (min-width: 92.5em) {
   html {
-    margin-left: 300px;
-    margin-right: 300px;
+    margin-left: 18.75‬em;/*300px / 16 = 18.75‬em*/
+    margin-right: 18.75‬em;
   }
 }
 /*1600px = 1600 / 16 = 100‬em*/
 @media screen and (min-width: 100em) {
   html {
-    margin-left: 400px;
-    margin-right: 400px;
+    margin-left: 25em;/*400px / 16 = 25em*/
+    margin-right: 25em;
   }
 }
