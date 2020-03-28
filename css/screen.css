@@ -155,6 +155,7 @@ img {
 .cooking {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
 }
 .cooking figure img {
   border-radius: 100%;
@@ -175,14 +176,16 @@ img {
 /*state styles */
 /*220px = 220 / 16 = 13.75em */
 @media screen and (min-width: 13.75em){
-h2 {
-  font-size: 1.5em; /*20px / 16 = 1.5em*/
+  h2 {
+    font-size: 1.5em; /*20px / 16 = 1.5em*/
+  }
 }
-p {
-  font-size: 1em;
-  line-height: 1.25em; /*20px / 16 = 1.25em*/
+/*235px = 235 / 16 = 14.6875em */
+@media screen and (min-width: 14.6875em){
+  p {
+    font-size: 1em;
+    line-height: 1.25em; /*20px / 16 = 1.25em*/
 }
-
 
 /*256px = 256 / 16 = 16em */
 @media screen and (min-width: 16em){
@@ -192,13 +195,16 @@ p {
   .navigation li {
     flex: 1 0 3.125em; /*50px / 16 = 3.125em*/
   }
+  .cooking {
+    flex-wrap: nowrap;
+  }
 }
 /*275px = 275 / 16 = 17.1875em */
 @media screen and (min-width: 17.1875em){
-h2 {
-  font-size: 2em; /*32px / 16 = 2em*/
+  h2 {
+    font-size: 2em; /*32px / 16 = 2em*/
+  }
 }
-
 
 /*469px = 469 / 16 = 29.3125em */
 @media screen and (min-width: 29.3125em) {
