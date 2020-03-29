@@ -476,8 +476,8 @@ img {
 /*1480px = 1480 / 16 = 92.5‬em*/
 @media screen and (min-width: 92.5em) {
   html {
-    margin-left: 18.75‬em;/*300px / 16 = 18.75‬em*/
-    margin-right: 18.75‬em;
+    margin-left: 18.75em; /*300px / 16 = 18.75‬em*/
+    margin-right: 18.75em;
   }
 }
 /*1600px = 1600 / 16 = 100‬em*/
@@ -485,5 +485,6 @@ img {
   html {
     margin-left: 25em;/*400px / 16 = 25em*/
     margin-right: 25em;
+  }
   }
 }
